@@ -24,11 +24,11 @@ with ProcessPoolExecutor(cpu_count()) as exe:
 
 Below are a couple of the visual results that are outputted after running the code:
 
-![image](https://github.com/cglosner/SharedMemory/smallFile.PNG)
-![image](https://github.com/cglosner/SharedMemory/mediumFile.PNG)
+![Small File Results](https://github.com/cglosner/SharedMemory/blob/main/smallFile.PNG)
+![Large File Results](https://github.com/cglosner/SharedMemory/blob/main/mediumFile.PNG)
 
 Next, is a plot of the general trend of running the program against various file sizes:
 
-![plot](https://github.com/cglosner/SharedMemory/plot.png)
+![Graphical Results](https://github.com/cglosner/SharedMemory/blob/main/plot.png)
 
 As you can see from the results, there was a significant speed up in by using the shared memory compared to using the non-shared memory, but there was also a need for more memory and cores to obtain that time speed up.
